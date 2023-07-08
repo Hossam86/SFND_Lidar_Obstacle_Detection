@@ -35,6 +35,20 @@ CPMAddPackage(
         GIT_REPOSITORY git@github.com:devernay/cminpack.git
         GIT_TAG v1.3.6
 )
+
+CPMAddPackage(
+        NAME vtk
+        GIT_REPOSITORY git@github.com:Kitware/VTK.git
+        GIT_TAG v9.2.6
+)
+
+CPMAddPackage(
+        NAME qhull
+        GIT_REPOSITORY git@github.com:qhull/qhull.git
+        GIT_TAG v8.0.2
+)
+
+
 CPMAddPackage(
   NAME pcl
   GIT_REPOSITORY git@github.com:PointCloudLibrary/pcl.git
